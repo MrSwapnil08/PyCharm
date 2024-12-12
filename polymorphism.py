@@ -7,7 +7,7 @@ a = 'auranga'
 b = 'bad'
 print(a+b)   #concatenation
 
-#2. Method overloading, same method performs many tasks
+#2. Method overloading, same method performs many tasks             
 class Myclass:
     @staticmethod
     def add_all(*x):    #(*x) it is variable arguments it can take 0 to many values in tuple.
