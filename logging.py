@@ -2,7 +2,7 @@
 import logging
 
 # Configure logging
-logging.basicConfig(filename=r'F:\Avd\Python\programs\mylog.txt', level=logging.ERROR)
+logging.basicConfig(filename='F:\\Avd\\Python\\programs\\mylog.txt', level=logging.ERROR)
 
 try:
     # Input and calculation
@@ -12,4 +12,3 @@ try:
 except Exception as ee:
     # Log the exception
     logging.exception("An error occurred:")
-
